@@ -1,0 +1,2 @@
+dev                      blocks      quota      limit      grace      files      quota      limit      grace
+/dev/simfs               137576   10240000   10240000                  9097          0          0           

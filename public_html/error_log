@@ -1,0 +1,169 @@
+[11-Oct-2017 21:09:05 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Admin\Auth' not found in /home/t5210marco1webqo/app/Http/Controllers/Admin/DashboardController.php on line 92
+[11-Oct-2017 21:13:08 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/t5210marco1webqo/app/Http/Controllers/Admin/DashboardController.php on line 93
+[11-Oct-2017 21:53:02 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/t5210marco1webqo/app/Http/Controllers/Admin/DashboardController.php on line 108
+[11-Oct-2017 21:53:28 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/t5210marco1webqo/app/Http/Controllers/Admin/DashboardController.php on line 108
+[11-Oct-2017 21:55:44 UTC] PHP Parse error:  syntax error, unexpected '$user' (T_VARIABLE) in /home/t5210marco1webqo/app/Http/Controllers/Admin/DashboardController.php on line 109
+[11-Oct-2017 21:56:16 UTC] PHP Parse error:  syntax error, unexpected 'dd' (T_STRING) in /home/t5210marco1webqo/app/Http/Controllers/Admin/DashboardController.php on line 108
+[11-Oct-2017 22:21:26 UTC] PHP Parse error:  syntax error, unexpected 'APP_URL' (T_STRING) in /home/t5210marco1webqo/storage/framework/views/9e4480d97f2b054930fca019ddfe3958 on line 183
+[11-Oct-2017 22:22:23 UTC] PHP Parse error:  syntax error, unexpected 'APP_URL' (T_STRING) in /home/t5210marco1webqo/storage/framework/views/9e4480d97f2b054930fca019ddfe3958 on line 183
+[11-Oct-2017 22:22:49 UTC] PHP Parse error:  syntax error, unexpected 'APP_URL' (T_STRING) in /home/t5210marco1webqo/storage/framework/views/9e4480d97f2b054930fca019ddfe3958 on line 183
+[11-Oct-2017 22:22:55 UTC] PHP Parse error:  syntax error, unexpected 'APP_URL' (T_STRING) in /home/t5210marco1webqo/storage/framework/views/9e4480d97f2b054930fca019ddfe3958 on line 183
+[11-Oct-2017 22:52:01 UTC] PHP Parse error:  syntax error, unexpected '/', expecting ')' in /home/t5210marco1webqo/storage/framework/views/9e4480d97f2b054930fca019ddfe3958 on line 109
+[11-Oct-2017 22:52:55 UTC] PHP Parse error:  syntax error, unexpected '/', expecting ')' in /home/t5210marco1webqo/storage/framework/views/9e4480d97f2b054930fca019ddfe3958 on line 109
+[11-Oct-2017 22:52:59 UTC] PHP Parse error:  syntax error, unexpected '/', expecting ')' in /home/t5210marco1webqo/storage/framework/views/9e4480d97f2b054930fca019ddfe3958 on line 109
+[12-Oct-2017 18:39:13 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Admin\Image' not found in /home/t5210marco1webqo/app/Http/Controllers/Admin/DashboardController.php on line 111
+[12-Oct-2017 18:41:40 UTC] PHP Fatal error:  Class 'Image' not found in /home/t5210marco1webqo/app/Http/Controllers/Admin/DashboardController.php on line 112
+[12-Oct-2017 18:47:33 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: data' in /home/t5210marco1webqo/app/Http/Controllers/Admin/DashboardController.php:105
+Stack trace:
+#0 /home/t5210marco1webqo/app/Http/Controllers/Admin/DashboardController.php(105): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/t5210marc...', 105, Array)
+#1 [internal function]: App\Http\Controllers\Admin\DashboardController->postAvatar(Object(Illuminate\Http\Request))
+#2 /home/t5210marco1webqo/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(246): call_user_func_array(Array, Array)
+#3 /home/t5210marco1webqo/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(162): Illuminate\Routing\Controller->callAction('postAvatar', Array)
+#4 /home/t5210marco1webqo/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(107): Illuminate\Routing\ControllerDispatcher->call(Object(App\Http\Controllers\Admin\DashboardController), Object(Illuminate\Routing\Rou in /home/t5210marco1webqo/app/Http/Controllers/Admin/DashboardController.php on line 105
+[12-Oct-2017 18:47:33 UTC] PHP Fatal error:  Call to a member function move() on a non-object in /home/t5210marco1webqo/app/Http/Controllers/Admin/DashboardController.php on line 105
+[12-Oct-2017 18:48:46 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/t5210marco1webqo/app/Http/Controllers/Admin/DashboardController.php on line 105
+[12-Oct-2017 18:49:28 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/t5210marco1webqo/app/Http/Controllers/Admin/DashboardController.php on line 104
+[12-Oct-2017 18:52:03 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: data' in /home/t5210marco1webqo/app/Http/Controllers/Admin/DashboardController.php:101
+Stack trace:
+#0 /home/t5210marco1webqo/app/Http/Controllers/Admin/DashboardController.php(101): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/t5210marc...', 101, Array)
+#1 [internal function]: App\Http\Controllers\Admin\DashboardController->postAvatar(Object(Illuminate\Http\Request))
+#2 /home/t5210marco1webqo/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(246): call_user_func_array(Array, Array)
+#3 /home/t5210marco1webqo/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(162): Illuminate\Routing\Controller->callAction('postAvatar', Array)
+#4 /home/t5210marco1webqo/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(107): Illuminate\Routing\ControllerDispatcher->call(Object(App\Http\Controllers\Admin\DashboardController), Object(Illuminate\Routing\Rou in /home/t5210marco1webqo/app/Http/Controllers/Admin/DashboardController.php on line 101
+[12-Oct-2017 18:52:03 UTC] PHP Fatal error:  Call to a member function getClientOriginalExtension() on a non-object in /home/t5210marco1webqo/app/Http/Controllers/Admin/DashboardController.php on line 101
+[12-Oct-2017 18:53:21 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: data' in /home/t5210marco1webqo/app/Http/Controllers/Admin/DashboardController.php:102
+Stack trace:
+#0 /home/t5210marco1webqo/app/Http/Controllers/Admin/DashboardController.php(102): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/t5210marc...', 102, Array)
+#1 [internal function]: App\Http\Controllers\Admin\DashboardController->postAvatar(Object(Illuminate\Http\Request))
+#2 /home/t5210marco1webqo/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(246): call_user_func_array(Array, Array)
+#3 /home/t5210marco1webqo/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(162): Illuminate\Routing\Controller->callAction('postAvatar', Array)
+#4 /home/t5210marco1webqo/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(107): Illuminate\Routing\ControllerDispatcher->call(Object(App\Http\Controllers\Admin\DashboardController), Object(Illuminate\Routing\Rou in /home/t5210marco1webqo/app/Http/Controllers/Admin/DashboardController.php on line 102
+[12-Oct-2017 18:53:21 UTC] PHP Fatal error:  Call to a member function move() on a non-object in /home/t5210marco1webqo/app/Http/Controllers/Admin/DashboardController.php on line 102
+[12-Oct-2017 18:53:49 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: data' in /home/t5210marco1webqo/app/Http/Controllers/Admin/DashboardController.php:102
+Stack trace:
+#0 /home/t5210marco1webqo/app/Http/Controllers/Admin/DashboardController.php(102): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/t5210marc...', 102, Array)
+#1 [internal function]: App\Http\Controllers\Admin\DashboardController->postAvatar(Object(Illuminate\Http\Request))
+#2 /home/t5210marco1webqo/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(246): call_user_func_array(Array, Array)
+#3 /home/t5210marco1webqo/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(162): Illuminate\Routing\Controller->callAction('postAvatar', Array)
+#4 /home/t5210marco1webqo/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(107): Illuminate\Routing\ControllerDispatcher->call(Object(App\Http\Controllers\Admin\DashboardController), Object(Illuminate\Routing\Rou in /home/t5210marco1webqo/app/Http/Controllers/Admin/DashboardController.php on line 102
+[12-Oct-2017 18:53:49 UTC] PHP Fatal error:  Call to a member function move() on a non-object in /home/t5210marco1webqo/app/Http/Controllers/Admin/DashboardController.php on line 102
+[15-Oct-2017 10:19:51 Europe/Moscow] PHP Warning:  require(/home/t5210marco1webqo/vendor/symfony/polyfill-mbstring/bootstrap.php): failed to open stream: No such file or directory in /home/t5210marco1webqo/vendor/composer/autoload_real.php on line 66
+[15-Oct-2017 10:19:51 Europe/Moscow] PHP Fatal error:  require(): Failed opening required '/home/t5210marco1webqo/vendor/symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/t5210marco1webqo/vendor/composer/autoload_real.php on line 66
+[15-Oct-2017 10:19:52 Europe/Moscow] PHP Warning:  require(/home/t5210marco1webqo/vendor/symfony/polyfill-mbstring/bootstrap.php): failed to open stream: No such file or directory in /home/t5210marco1webqo/vendor/composer/autoload_real.php on line 66
+[15-Oct-2017 10:19:52 Europe/Moscow] PHP Fatal error:  require(): Failed opening required '/home/t5210marco1webqo/vendor/symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/t5210marco1webqo/vendor/composer/autoload_real.php on line 66
+[15-Oct-2017 10:28:33 Europe/Moscow] PHP Warning:  require(/home/t5210marco1webqo/vendor/symfony/polyfill-mbstring/bootstrap.php): failed to open stream: No such file or directory in /home/t5210marco1webqo/vendor/composer/autoload_real.php on line 66
+[15-Oct-2017 10:28:33 Europe/Moscow] PHP Fatal error:  require(): Failed opening required '/home/t5210marco1webqo/vendor/symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/t5210marco1webqo/vendor/composer/autoload_real.php on line 66
+[15-Oct-2017 10:28:33 Europe/Moscow] PHP Warning:  require(/home/t5210marco1webqo/vendor/symfony/polyfill-mbstring/bootstrap.php): failed to open stream: No such file or directory in /home/t5210marco1webqo/vendor/composer/autoload_real.php on line 66
+[15-Oct-2017 10:28:33 Europe/Moscow] PHP Fatal error:  require(): Failed opening required '/home/t5210marco1webqo/vendor/symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/t5210marco1webqo/vendor/composer/autoload_real.php on line 66
+[15-Oct-2017 10:37:42 Europe/Moscow] PHP Warning:  require(/home/t5210marco1webqo/vendor/symfony/polyfill-mbstring/bootstrap.php): failed to open stream: No such file or directory in /home/t5210marco1webqo/vendor/composer/autoload_real.php on line 66
+[15-Oct-2017 10:37:42 Europe/Moscow] PHP Fatal error:  require(): Failed opening required '/home/t5210marco1webqo/vendor/symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/t5210marco1webqo/vendor/composer/autoload_real.php on line 66
+[15-Oct-2017 10:37:42 Europe/Moscow] PHP Warning:  require(/home/t5210marco1webqo/vendor/symfony/polyfill-mbstring/bootstrap.php): failed to open stream: No such file or directory in /home/t5210marco1webqo/vendor/composer/autoload_real.php on line 66
+[15-Oct-2017 10:37:42 Europe/Moscow] PHP Fatal error:  require(): Failed opening required '/home/t5210marco1webqo/vendor/symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/t5210marco1webqo/vendor/composer/autoload_real.php on line 66
+[15-Oct-2017 10:44:24 Europe/Moscow] PHP Warning:  require(/home/t5210marco1webqo/vendor/symfony/polyfill-mbstring/bootstrap.php): failed to open stream: No such file or directory in /home/t5210marco1webqo/vendor/composer/autoload_real.php on line 66
+[15-Oct-2017 10:44:24 Europe/Moscow] PHP Fatal error:  require(): Failed opening required '/home/t5210marco1webqo/vendor/symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/t5210marco1webqo/vendor/composer/autoload_real.php on line 66
+[15-Oct-2017 10:44:24 Europe/Moscow] PHP Warning:  require(/home/t5210marco1webqo/vendor/symfony/polyfill-mbstring/bootstrap.php): failed to open stream: No such file or directory in /home/t5210marco1webqo/vendor/composer/autoload_real.php on line 66
+[15-Oct-2017 10:44:24 Europe/Moscow] PHP Fatal error:  require(): Failed opening required '/home/t5210marco1webqo/vendor/symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/t5210marco1webqo/vendor/composer/autoload_real.php on line 66
+[15-Oct-2017 10:48:52 Europe/Moscow] PHP Warning:  require(/home/t5210marco1webqo/vendor/symfony/polyfill-mbstring/bootstrap.php): failed to open stream: No such file or directory in /home/t5210marco1webqo/vendor/composer/autoload_real.php on line 66
+[15-Oct-2017 10:48:52 Europe/Moscow] PHP Fatal error:  require(): Failed opening required '/home/t5210marco1webqo/vendor/symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/t5210marco1webqo/vendor/composer/autoload_real.php on line 66
+[15-Oct-2017 10:48:52 Europe/Moscow] PHP Warning:  require(/home/t5210marco1webqo/vendor/symfony/polyfill-mbstring/bootstrap.php): failed to open stream: No such file or directory in /home/t5210marco1webqo/vendor/composer/autoload_real.php on line 66
+[15-Oct-2017 10:48:52 Europe/Moscow] PHP Fatal error:  require(): Failed opening required '/home/t5210marco1webqo/vendor/symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/t5210marco1webqo/vendor/composer/autoload_real.php on line 66
+[15-Oct-2017 10:53:46 Europe/Moscow] PHP Warning:  require(/home/t5210marco1webqo/vendor/symfony/polyfill-mbstring/bootstrap.php): failed to open stream: No such file or directory in /home/t5210marco1webqo/vendor/composer/autoload_real.php on line 66
+[15-Oct-2017 10:53:46 Europe/Moscow] PHP Fatal error:  require(): Failed opening required '/home/t5210marco1webqo/vendor/symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/t5210marco1webqo/vendor/composer/autoload_real.php on line 66
+[15-Oct-2017 10:53:46 Europe/Moscow] PHP Warning:  require(/home/t5210marco1webqo/vendor/symfony/polyfill-mbstring/bootstrap.php): failed to open stream: No such file or directory in /home/t5210marco1webqo/vendor/composer/autoload_real.php on line 66
+[15-Oct-2017 10:53:46 Europe/Moscow] PHP Fatal error:  require(): Failed opening required '/home/t5210marco1webqo/vendor/symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/t5210marco1webqo/vendor/composer/autoload_real.php on line 66
+[15-Oct-2017 10:53:49 Europe/Moscow] PHP Warning:  require(/home/t5210marco1webqo/vendor/symfony/polyfill-mbstring/bootstrap.php): failed to open stream: No such file or directory in /home/t5210marco1webqo/vendor/composer/autoload_real.php on line 66
+[15-Oct-2017 10:53:49 Europe/Moscow] PHP Fatal error:  require(): Failed opening required '/home/t5210marco1webqo/vendor/symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/t5210marco1webqo/vendor/composer/autoload_real.php on line 66
+[15-Oct-2017 10:53:49 Europe/Moscow] PHP Warning:  require(/home/t5210marco1webqo/vendor/symfony/polyfill-mbstring/bootstrap.php): failed to open stream: No such file or directory in /home/t5210marco1webqo/vendor/composer/autoload_real.php on line 66
+[15-Oct-2017 10:53:49 Europe/Moscow] PHP Fatal error:  require(): Failed opening required '/home/t5210marco1webqo/vendor/symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/t5210marco1webqo/vendor/composer/autoload_real.php on line 66
+[15-Oct-2017 11:28:04 Europe/Moscow] PHP Warning:  require(/home/t5210marco1webqo/vendor/symfony/polyfill-mbstring/bootstrap.php): failed to open stream: No such file or directory in /home/t5210marco1webqo/vendor/composer/autoload_real.php on line 66
+[15-Oct-2017 11:28:04 Europe/Moscow] PHP Fatal error:  require(): Failed opening required '/home/t5210marco1webqo/vendor/symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/t5210marco1webqo/vendor/composer/autoload_real.php on line 66
+[15-Oct-2017 11:28:04 Europe/Moscow] PHP Warning:  require(/home/t5210marco1webqo/vendor/symfony/polyfill-mbstring/bootstrap.php): failed to open stream: No such file or directory in /home/t5210marco1webqo/vendor/composer/autoload_real.php on line 66
+[15-Oct-2017 11:28:04 Europe/Moscow] PHP Fatal error:  require(): Failed opening required '/home/t5210marco1webqo/vendor/symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/t5210marco1webqo/vendor/composer/autoload_real.php on line 66
+[15-Oct-2017 11:33:00 Europe/Moscow] PHP Warning:  require(/home/t5210marco1webqo/vendor/symfony/var-dumper/Resources/functions/dump.php): failed to open stream: No such file or directory in /home/t5210marco1webqo/vendor/composer/autoload_real.php on line 66
+[15-Oct-2017 11:33:00 Europe/Moscow] PHP Fatal error:  require(): Failed opening required '/home/t5210marco1webqo/vendor/symfony/var-dumper/Resources/functions/dump.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/t5210marco1webqo/vendor/composer/autoload_real.php on line 66
+[15-Oct-2017 11:33:00 Europe/Moscow] PHP Warning:  require(/home/t5210marco1webqo/vendor/symfony/var-dumper/Resources/functions/dump.php): failed to open stream: No such file or directory in /home/t5210marco1webqo/vendor/composer/autoload_real.php on line 66
+[15-Oct-2017 11:33:00 Europe/Moscow] PHP Fatal error:  require(): Failed opening required '/home/t5210marco1webqo/vendor/symfony/var-dumper/Resources/functions/dump.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/t5210marco1webqo/vendor/composer/autoload_real.php on line 66
+[15-Oct-2017 11:36:54 Europe/Moscow] PHP Warning:  require(/home/t5210marco1webqo/vendor/symfony/var-dumper/Resources/functions/dump.php): failed to open stream: No such file or directory in /home/t5210marco1webqo/vendor/composer/autoload_real.php on line 66
+[15-Oct-2017 11:36:54 Europe/Moscow] PHP Fatal error:  require(): Failed opening required '/home/t5210marco1webqo/vendor/symfony/var-dumper/Resources/functions/dump.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/t5210marco1webqo/vendor/composer/autoload_real.php on line 66
+[15-Oct-2017 11:36:55 Europe/Moscow] PHP Warning:  require(/home/t5210marco1webqo/vendor/symfony/var-dumper/Resources/functions/dump.php): failed to open stream: No such file or directory in /home/t5210marco1webqo/vendor/composer/autoload_real.php on line 66
+[15-Oct-2017 11:36:55 Europe/Moscow] PHP Fatal error:  require(): Failed opening required '/home/t5210marco1webqo/vendor/symfony/var-dumper/Resources/functions/dump.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/t5210marco1webqo/vendor/composer/autoload_real.php on line 66
+[15-Oct-2017 11:42:12 Europe/Moscow] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/t5210marco1webqo/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 101
+[15-Oct-2017 11:42:13 Europe/Moscow] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/t5210marco1webqo/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 101
+[15-Oct-2017 11:42:25 Europe/Moscow] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/t5210marco1webqo/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 101
+[15-Oct-2017 11:42:25 Europe/Moscow] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/t5210marco1webqo/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 101
+[15-Oct-2017 11:43:06 Europe/Moscow] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/t5210marco1webqo/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 101
+[15-Oct-2017 11:43:06 Europe/Moscow] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/t5210marco1webqo/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 101
+[15-Oct-2017 11:45:57 Europe/Moscow] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/t5210marco1webqo/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 101
+[15-Oct-2017 11:45:58 Europe/Moscow] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/t5210marco1webqo/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 101
+[15-Oct-2017 11:48:04 Europe/Moscow] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/t5210marco1webqo/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 101
+[15-Oct-2017 11:48:04 Europe/Moscow] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/t5210marco1webqo/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 101
+[15-Oct-2017 12:20:09 Europe/Moscow] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/t5210marco1webqo/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 101
+[15-Oct-2017 12:20:10 Europe/Moscow] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/t5210marco1webqo/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 101
+[15-Oct-2017 15:32:38 Europe/Moscow] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/t5210marco1webqo/bootstrap/app.php on line 30
+[15-Oct-2017 15:32:38 Europe/Moscow] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/t5210marco1webqo/bootstrap/app.php on line 30
+[15-Oct-2017 15:40:19 Europe/Moscow] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/t5210marco1webqo/bootstrap/app.php on line 30
+[15-Oct-2017 15:40:21 Europe/Moscow] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/t5210marco1webqo/bootstrap/app.php on line 30
+[15-Oct-2017 16:07:20 Europe/Moscow] PHP Fatal error:  Class 'PHPExcel_Shared_Font' not found in /home/t5210marco1webqo/config/excel.php on line 182
+[15-Oct-2017 16:07:29 Europe/Moscow] PHP Fatal error:  Class 'PHPExcel_Shared_Font' not found in /home/t5210marco1webqo/config/excel.php on line 182
+[15-Oct-2017 16:08:18 Europe/Moscow] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class log does not exist' in /home/t5210marco1webqo/vendor/compiled.php:1029
+Stack trace:
+#0 /home/t5210marco1webqo/vendor/compiled.php(1029): ReflectionClass->__construct('log')
+#1 /home/t5210marco1webqo/vendor/compiled.php(980): Illuminate\Container\Container->build('log', Array)
+#2 /home/t5210marco1webqo/vendor/compiled.php(1493): Illuminate\Container\Container->make('log', Array)
+#3 /home/t5210marco1webqo/vendor/compiled.php(1072): Illuminate\Foundation\Application->make('Psr\\Log\\LoggerI...')
+#4 /home/t5210marco1webqo/vendor/compiled.php(1056): Illuminate\Container\Container->resolveClass(Object(ReflectionParameter))
+#5 /home/t5210marco1webqo/vendor/compiled.php(1042): Illuminate\Container\Container->getDependencies(Array, Array)
+#6 /home/t5210marco1webqo/vendor/compiled.php(980): Illuminate\Container\Container->build('App\\Exceptions\\...', Array)
+#7 /home/t5210marco1webqo/vendor/compiled.php(1493): Illuminate\Container\Container->make('App\\Except in /home/t5210marco1webqo/vendor/compiled.php on line 1029
+[15-Oct-2017 13:09:06 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/t5210marco1webqo/storage/logs/laravel-2017-10-15.log" could not be opened: failed to open stream: Permission denied' in /home/t5210marco1webqo/vendor/compiled.php:12465
+Stack trace:
+#0 /home/t5210marco1webqo/vendor/compiled.php(12524): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/t5210marco1webqo/vendor/compiled.php(12406): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/t5210marco1webqo/vendor/compiled.php(12174): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/t5210marco1webqo/vendor/compiled.php(12272): Monolog\Logger->addRecord(400, 'exception 'Erro...', Array)
+#4 /home/t5210marco1webqo/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(47): Monolog\Logger->error('exception 'Erro...')
+#5 /home/t5210marco1webqo/app/Exceptions/Handler.php(50): Illuminate\Foundation\Exceptions\Handler->report(Object(ErrorException))
+#6 /home/t5210marco1webqo/vendor/compiled.php(172 in /home/t5210marco1webqo/vendor/compiled.php on line 12465
+[15-Oct-2017 13:09:06 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/t5210marco1webqo/storage/logs/laravel-2017-10-15.log" could not be opened: failed to open stream: Permission denied' in /home/t5210marco1webqo/vendor/compiled.php:12465
+Stack trace:
+#0 /home/t5210marco1webqo/vendor/compiled.php(12524): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/t5210marco1webqo/vendor/compiled.php(12406): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/t5210marco1webqo/vendor/compiled.php(12174): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/t5210marco1webqo/vendor/compiled.php(12272): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/t5210marco1webqo/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(47): Monolog\Logger->error('exception 'Symf...')
+#5 /home/t5210marco1webqo/app/Exceptions/Handler.php(50): Illuminate\Foundation\Exceptions\Handler->report(Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#6 /home/t in /home/t5210marco1webqo/vendor/compiled.php on line 12465
+[15-Oct-2017 13:09:06 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/t5210marco1webqo/storage/logs/laravel-2017-10-15.log" could not be opened: failed to open stream: Permission denied' in /home/t5210marco1webqo/vendor/compiled.php:12465
+Stack trace:
+#0 /home/t5210marco1webqo/vendor/compiled.php(12524): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/t5210marco1webqo/vendor/compiled.php(12406): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/t5210marco1webqo/vendor/compiled.php(12174): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/t5210marco1webqo/vendor/compiled.php(12272): Monolog\Logger->addRecord(400, 'exception 'Unex...', Array)
+#4 /home/t5210marco1webqo/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(47): Monolog\Logger->error('exception 'Unex...')
+#5 /home/t5210marco1webqo/app/Exceptions/Handler.php(50): Illuminate\Foundation\Exceptions\Handler->report(Object(UnexpectedValueException))
+#6 /home/t5210marco1webqo/vendor/compil in /home/t5210marco1webqo/vendor/compiled.php on line 12465
+[15-Oct-2017 13:09:06 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/t5210marco1webqo/storage/logs/laravel-2017-10-15.log" could not be opened: failed to open stream: Permission denied' in /home/t5210marco1webqo/vendor/compiled.php:12465
+Stack trace:
+#0 /home/t5210marco1webqo/vendor/compiled.php(12524): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/t5210marco1webqo/vendor/compiled.php(12406): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/t5210marco1webqo/vendor/compiled.php(12174): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/t5210marco1webqo/vendor/compiled.php(12272): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/t5210marco1webqo/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(47): Monolog\Logger->error('exception 'Symf...')
+#5 /home/t5210marco1webqo/app/Exceptions/Handler.php(50): Illuminate\Foundation\Exceptions\Handler->report(Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#6 /home/t in /home/t5210marco1webqo/vendor/compiled.php on line 12465
+[19-Oct-2017 08:46:23 UTC] PHP Fatal error:  Class 'Maatwebsite\Excel\ExcelServiceProvider' not found in /home/t5210marco1webqo/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 150
+[19-Oct-2017 08:47:31 UTC] PHP Fatal error:  Class 'Maatwebsite\Excel\ExcelServiceProvider' not found in /home/t5210marco1webqo/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 150
+[19-Oct-2017 08:47:32 UTC] PHP Fatal error:  Class 'Maatwebsite\Excel\ExcelServiceProvider' not found in /home/t5210marco1webqo/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 150
+[19-Oct-2017 08:54:47 UTC] PHP Fatal error:  Class 'Maatwebsite\Excel\ExcelServiceProvider' not found in /home/t5210marco1webqo/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 150
+[19-Oct-2017 08:54:47 UTC] PHP Fatal error:  Class 'Maatwebsite\Excel\ExcelServiceProvider' not found in /home/t5210marco1webqo/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 150
+[19-Oct-2017 08:54:48 UTC] PHP Fatal error:  Class 'Maatwebsite\Excel\ExcelServiceProvider' not found in /home/t5210marco1webqo/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 150
+[19-Oct-2017 08:54:49 UTC] PHP Fatal error:  Class 'Maatwebsite\Excel\ExcelServiceProvider' not found in /home/t5210marco1webqo/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 150
+[19-Oct-2017 08:54:49 UTC] PHP Fatal error:  Class 'Maatwebsite\Excel\ExcelServiceProvider' not found in /home/t5210marco1webqo/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 150
+[19-Oct-2017 08:54:51 UTC] PHP Fatal error:  Class 'Maatwebsite\Excel\ExcelServiceProvider' not found in /home/t5210marco1webqo/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 150
+[19-Oct-2017 08:55:28 UTC] PHP Fatal error:  Class 'Maatwebsite\Excel\ExcelServiceProvider' not found in /home/t5210marco1webqo/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 150
+[19-Oct-2017 09:02:15 UTC] PHP Fatal error:  Class 'Maatwebsite\Excel\ExcelServiceProvider' not found in /home/t5210marco1webqo/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 150
+[19-Oct-2017 09:24:11 UTC] PHP Fatal error:  Class 'Maatwebsite\Excel\ExcelServiceProvider' not found in /home/t5210marco1webqo/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 150
+[19-Oct-2017 10:09:16 UTC] PHP Fatal error:  Class 'Maatwebsite\Excel\ExcelServiceProvider' not found in /home/t5210marco1webqo/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 150
+[19-Oct-2017 10:11:23 UTC] PHP Fatal error:  Class 'Maatwebsite\Excel\ExcelServiceProvider' not found in /home/t5210marco1webqo/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 150
+[19-Oct-2017 13:58:13 UTC] PHP Fatal error:  Class 'Maatwebsite\Excel\ExcelServiceProvider' not found in /home/t5210marco1webqo/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 150
+[19-Oct-2017 14:22:13 UTC] PHP Fatal error:  Class 'Maatwebsite\Excel\Facades\Excel' not found in /home/t5210marco1webqo/app/Http/Controllers/Admin/Export/ExportController.php on line 43

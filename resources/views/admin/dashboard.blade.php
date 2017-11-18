@@ -1,0 +1,172 @@
+
+	@extends('layouts.admin')
+
+	@section('content')
+
+		  
+	  <!--BEGIN PAGE HEADER & BREADCRUMB-->
+	
+        <div class="page-header-breadcrumb">
+		
+          <div class="page-heading hidden-xs">		  
+            <h1 class="page-title">Dashboard</h1>
+          </div>
+		  
+          <ol class="breadcrumb page-breadcrumb">
+            <li><i class="fa fa-home"></i>&nbsp;<a href="dashboard.html">Dashboard</a>&nbsp;
+              <div class="col-lg-12">
+                <h5 class="block-heading">Showing data from {{ $StartDate }} - {{ $EndDate }} <a href="#" data-hover="tooltip" data-placement="top" data-target="#modal-edit-data-range" data-toggle="modal" title="Edit"><span class="label label-sm label-success"><i class="fa fa-pencil"></i></span></a></h5>
+                
+                <div class="btn-group">
+                    <button type="button" class="btn btn-blue">Export to CSV</button>
+                    <button type="button" data-toggle="dropdown" class="btn btn-blue dropdown-toggle"><span class="caret"></span><span class="sr-only">Toggle Dropdown</span></button>
+                    <ul role="menu" class="dropdown-menu">
+                      <li><a href="{{ route('export.email') }}" data-toggle="modal">Export Emails</a></li>
+                      <li class="divider"></li>
+                      <li><a href="{{ route('export.sms') }}" data-toggle="modal">Export SMS</a></li>
+                    </ul>
+                  </div>&nbsp;
+
+                note to programmer: by default, showing the latest 1 week data.
+                <!--Modal Edit data range start-->
+                <div id="modal-edit-data-range" tabindex="-1" role="dialog" aria-labelledby="modal-login-label" aria-hidden="true" class="modal fade">
+                  <div class="modal-dialog modal-wide-width">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" data-dismiss="modal" aria-hidden="true" class="close">&times;</button>
+                        <h4 id="modal-login-label3" class="modal-title">Edit Data Range</h4>
+                      </div>
+                      <div class="modal-body">
+                        <div class="form">
+                          <form class="form-horizontal">
+                            <h5 class="block-heading">Number of Emails Imported </h5>
+                            <div class="form-group">
+                              <label class="col-md-3 control-label">Showing Data</label>
+                              <div class="col-md-6">
+                                <div class="input-group input-daterange">
+                                  <input type="text" name="start" class="form-control" data-date-format="dd-mm-yyyy" placeholder="dd-mm-yyyy" value="02nd Jan 2017"/>
+                                  <span class="input-group-addon">to</span>
+                                  <input type="text" name="end" class="form-control" data-date-format="dd-mm-yyyy" placeholder="dd-mm-yyyy" value="08th Jan 2017"/>
+                                </div>
+                              </div>
+                            </div>
+                            <h5 class="block-heading">Number of SMS Imported</h5>
+                            <div class="form-group">
+                              <label class="col-md-3 control-label">Showing Data</label>
+                              <div class="col-md-6">
+                                <div class="input-group input-daterange">
+                                  <input type="text" name="start" class="form-control" data-date-format="dd-mm-yyyy" placeholder="dd-mm-yyyy" value="02nd Jan 2017"/>
+                                  <span class="input-group-addon">to</span>
+                                  <input type="text" name="end" class="form-control" data-date-format="dd-mm-yyyy" placeholder="dd-mm-yyyy" value="02nd Feb 2017"/>
+                                </div>
+                              </div>
+                            </div>
+                            note to programmer: pls follow the date format ie. 02nd Jan 2016. the data should be latest 1 week or 1 month data by default.
+                            <div class="form-actions">
+                              <div class="col-md-offset-5 col-md-8"> <a href="#" class="btn btn-red">Save &nbsp;<i class="fa fa-floppy-o"></i></a>&nbsp; <a href="#" data-dismiss="modal" class="btn btn-green">Cancel &nbsp;<i class="glyphicon glyphicon-ban-circle"></i></a> </div>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--END MODAL Edit data range -->
+                
+                
+                
+              </div>
+            </li>
+          </ol>
+        </div>
+        <!--END PAGE HEADER & BREADCRUMB--><!--BEGIN CONTENT-->
+        
+        <div class="page-content">
+                <div id="tab-general">
+                    <div class="row">
+                      <!-- end col-lg-12 -->
+<div class="col-lg-6">
+                        	
+                        
+                        	<div class="panel panel-primary">
+                            	<div class="panel-heading">Number of Emails Imported</div>
+                                <div class="panel-body">
+                                
+                                    <div id="counter-chart" style="width: 100%; height:300px"></div>
+                                    
+                                    <div class="order-detail">
+                                    	<div class="col-md-6">
+                                            <div class="revenue-total"><span id='revenue-number'>0</span>&nbsp;<span class="text-12px">emails</span></div>
+                                            <div class="revenue-title">Number of emails imported from first day until today</div>
+                                            <div class="xss-margin"></div>
+                                            <div class="text-12px">[{{ $FirstDate }}  - {{ $TodayDate }}]</div>
+                                            <div class="xss-margin"></div>
+                                            
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="revenue-total"><span id='new-sales-number'>0</span>&nbsp;<span class="text-12px">emails</span></div>
+                                            <div class="revenue-title">Number of Emails Imported Today</div>
+                                            <div class="xss-margin"></div>
+                                            <div class="text-12px">[{{ $TodayDate }}]</div>
+                                            <div class="xss-margin"></div>
+                                            <i class="fa fa-arrow-up text-green"></i>&nbsp; <span class="text-green"><b>-%</b></span>
+                                        </div>
+                                        
+                                                
+                                    </div><!-- end order detail -->
+                                    
+                                </div>
+                            </div>
+                            
+                      </div>
+                        
+                        <div class="col-lg-6">
+                        
+                        	<div class="panel panel-primary">
+                            	<div class="panel-heading">Number of SMS Imported</div>
+                                <div class="panel-body">
+                                    <div id="area-chart" style="width: 100%; height:300px"></div>
+                                    
+                                    <div class="order-detail">
+                                    	<div class="col-md-6">
+                                            <div class="revenue-total"><span id='earning-number'>0</span>&nbsp;<span class="text-12px">sms</span></div>
+                                            <div class="revenue-title">Number of sms imported from first day until today</div>
+                                            <div class="xss-margin"></div>
+                                            <div class="text-12px">[{{ $FirstDate }}  - {{ $TodayDate }}]</div>
+                                            <div class="xss-margin"></div>
+                                            
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="revenue-total"><span id='visits-number'>0</span>&nbsp;<span class="text-12px">sms</span></div>
+                                            <div class="revenue-title">Number of SMS Imported Today</div>
+                                            <div class="xss-margin"></div>
+                                            <i class="fa fa-arrow-down text-red"></i>&nbsp; <span class="text-red"><b>-%</b></span>
+                                        </div>
+                                        
+                                                
+                                    </div><!-- end order detail -->
+                                    
+                                </div>
+                            </div>
+                            
+                        </div> 
+                        <div class="clearfix"></div>
+
+                        
+                        <!-- end col-lg-12 -->
+                        
+                        
+                        
+                        <!-- end col-lg-12 -->
+                        
+                        
+                        
+                        <!-- end col-lg-12 -->
+                        
+                        
+                  </div>
+                </div>
+            </div>
+        <!--END CONTENT-->	
+	
+	@endsection

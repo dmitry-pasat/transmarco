@@ -1,0 +1,27 @@
+
+<body>
+
+	<h1>Email report <?php echo e($date); ?></h1>
+
+	<p>
+		
+		Number of emails is <b><?php echo e(count($emails)); ?></b>
+		
+	</p>
+	
+	<h3>List of emails</h3>
+	
+	<?php foreach($emails as $email): ?>
+	
+		<p>
+		
+			<?php echo e($email->filename); ?> | <?php echo e($email->email); ?>
+
+			
+		</p>
+		
+	<?php endforeach; ?>		
+	
+	<?php echo $__env->make('reports.footer', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+	
+</body>
